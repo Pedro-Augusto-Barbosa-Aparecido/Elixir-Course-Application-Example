@@ -10,7 +10,9 @@ by adding `elixir_treinamento` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:elixir_treinamento, "~> 0.1.0"}
+    {:elixir_treinamento, "~> 0.1.0"},
+    {:quantum, "~> 3.4"},
+    {:mock, "~> 0.3.7"},
   ]
 end
 ```
